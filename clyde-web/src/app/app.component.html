@@ -1,0 +1,23 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<h1>
+  Welcome to {{ title }}!
+</h1>
+<pre>
+    /\__/\
+   /`    '\
+ === 0  0 ===
+   \  --  /
+  /        \
+ /          \
+|            |
+ \  ||  ||  /
+  \_oo__oo_/#######o
+</pre>
+<p>Click <a style="color:blue; cursor: pointer;" (click)="getUser()"><strong>here</strong></a> to retrieve a user from the API.</p>
+<img *ngIf="loading" src="../../assets/images/eclipse-loader.gif" />
+<div *ngIf="error">{{error}}</div>
+<div *ngIf="user">
+  Email: {{user.Email}} <br />
+  Company: {{user.Company.Name}} <br />
+  Location: {{user.Company.Address.City}}, {{user.Company.Address.State}}
+</div>
