@@ -17,7 +17,22 @@ A full-stack TypeScript boilerplate project. Includes:
 * __clyde-api__: A TypeScript REST API for the back-end.
 * __clyde-common__: A place to hold shared TypeScript models.
 
-## clyde-web docs
+## Quickstart
+
+```
+git clone git@github.com:dylanwooters/clyde.git
+
+cd clyde-web
+npm install
+ng serve --watch
+
+cd clyde-api
+npm install
+npm run swagger
+nodemon
+```
+
+## clyde-web info
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
@@ -45,7 +60,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-## clyde-api docs
+## clyde-api info
 
 ### Initial setup
 ```
