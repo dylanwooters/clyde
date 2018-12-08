@@ -1,15 +1,5 @@
 # clyde
-```
-    /\__/\
-   /`    '\
- === 0  0 ===
-   \  --  /
-  /        \
- /          \
-|            |
- \  ||  ||  /
-  \_oo__oo_/#######o
-```
+![clyde image](https://github.com/dylanwooters/clyde/blob/master/clyde.png)
 
 A full-stack TypeScript boilerplate project. Includes:
 
